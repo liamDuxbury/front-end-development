@@ -10,7 +10,7 @@ nav a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 7px;
-    transition: 1s;
+    transition: color 1s;
 }
 nav a.blog {
     color: rgb(255, 255, 255);
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: dimgray;
+    color: lightgray;
     font-weight: normal;
 }
 
@@ -54,4 +54,9 @@ h2 {
 main {
     width: 550px;
     margin: 0 auto;
+}
+
+hr {
+    width: 50%;
+    noshade;
 }

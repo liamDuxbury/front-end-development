@@ -1,0 +1,46 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-basis: 15vw;
+    flex-shrink: 0;
+}
+
+nav a {
+    background-color: darkmagenta;
+    color: darkslategrey;
+    text-decoration: none;
+    transition: background-color 0.7s;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    background-color: ghostwhite;
+}
+
+header {
+    background-color: purple;
+    overflow: auto;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: purple;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    flex-direction: row-reverse;
+    display: flex;
+}
