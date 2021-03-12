@@ -1,8 +1,13 @@
-myCount = 0;
+"use strict";
 
-function greetMe() {
-    document.getElementById("myTrigger").textContent = myCount;
-    myCount++;
-}
+myHeight.addEventListener('input', ev => { 
+  document.documentElement.style.setProperty('--height', `${myHeight.value}%`)
+});
 
-myTrigger.addEventListener("click", greetMe);
+myBG.addEventListener('input', ev => {
+  document.documentElement.style.setProperty('--bg-colour', myBG.value);
+});
+
+myFG.addEventListener('input', ev => {
+  document.documentElement.style.setProperty('--fg-colour', myFG.value);
+});
